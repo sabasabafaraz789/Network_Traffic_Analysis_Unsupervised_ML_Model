@@ -1,15 +1,15 @@
 # Network_Traffic_Analysis_Unsupervised_ML_Model
 ---
 
-## 📌 Model Overview
+##  Model Overview
 
 This project implements an **unsupervised network traffic analysis model** for detecting and analyzing cyber-attack patterns using **DBSCAN clustering** combined with **feature engineering and robust preprocessing** techniques.
 
 ---
 
-## 🧠 Methodology
+##  Methodology
 
-### 1️⃣ Data Preprocessing
+### 1️ Data Preprocessing
 
 * Network Intrusion dataset  from  [[CIC-IDS- 2017](https://www.kaggle.com/datasets/mrwellsdavid/unsw-nb15](https://www.kaggle.com/datasets/chethuhn/network-intrusion-dataset)):
 
@@ -20,7 +20,7 @@ This project implements an **unsupervised network traffic analysis model** for d
 
 ---
 
-### 2️⃣ Feature Engineering
+### 2️ Feature Engineering
 
 Several domain-specific features are engineered to better capture **network flow behavior**:
 
@@ -36,7 +36,7 @@ These features help distinguish normal traffic from different attack behaviors.
 
 ---
 
-### 4️⃣ Feature Scaling & Transformation
+### 4️ Feature Scaling & Transformation
 
 To handle skewed distributions and outliers:
 
@@ -44,7 +44,7 @@ To handle skewed distributions and outliers:
 * **Min-Max Scaling** maps features into a uniform range
 ---
 
-### 5️⃣ DBSCAN Clustering
+### 5️ DBSCAN Clustering
 
 The **DBSCAN (Density-Based Spatial Clustering of Applications with Noise)** algorithm is used because:
 
@@ -65,7 +65,7 @@ The best parameters are selected based on clustering quality.
 
 ---
 
-### 6️⃣ Cluster Evaluation
+### 6️ Cluster Evaluation
 
 Clustering results are evaluated using:
 
@@ -75,7 +75,7 @@ Clustering results are evaluated using:
 
 ---
 
-### 7️⃣ Visualization
+### 7️ Visualization
 
 * DBSCAN clusters are visualized in reduced space
 * Noise points are highlighted separately
@@ -83,7 +83,7 @@ Clustering results are evaluated using:
 
 ---
 
-## 🚀 Key Highlights
+##  Key Highlights
 
 * Unsupervised attack pattern discovery
 * Robust feature engineering for network traffic
@@ -93,7 +93,7 @@ Clustering results are evaluated using:
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 * Python
 * Pandas, NumPy
