@@ -83,16 +83,6 @@ Clustering results are evaluated using:
 
 ---
 
-##  Key Highlights
-
-* Unsupervised attack pattern discovery
-* Robust feature engineering for network traffic
-* Automatic anomaly detection via DBSCAN
-* Balanced evaluation for fair comparison
-* Interpretable cluster purity analysis
-
----
-
 ##  Technologies Used
 
 * Python
