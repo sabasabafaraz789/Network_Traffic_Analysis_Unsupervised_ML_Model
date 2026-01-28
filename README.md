@@ -11,7 +11,7 @@ This project implements an **unsupervised network traffic analysis model** for d
 
 ### 1️ Data Preprocessing
 
-* Network Intrusion dataset  from  [[CIC-IDS- 2017](https://www.kaggle.com/datasets/mrwellsdavid/unsw-nb15](https://www.kaggle.com/datasets/chethuhn/network-intrusion-dataset)):
+* Network Intrusion dataset  from  [CIC-IDS- 2017](https://www.kaggle.com/datasets/chethuhn/network-intrusion-dataset)
 
   * Removing infinite values (`±inf`)
   * Dropping missing values
